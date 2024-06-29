@@ -115,10 +115,6 @@ select {
     padding: 40px 0;
 }
 
-/* .site-nav {
-    width: 200px;
-} */
-
 .site-nav,
 .action-nav {
     display: flex;
@@ -167,7 +163,6 @@ select {
 */
 .menu-text-container {
     text-align: center;
-
 }
 
 .menu-heading {
@@ -228,33 +223,32 @@ select {
 
 
 
-
-
-
+/*
+~~~~~~~~~~~~~~~~~~~~~
+    USER-INTERACTION
+~~~~~~~~~~~~~~~~~~~~~
+*/
 
 
 .home-page {
-    min-height: 100vh;
-    background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./meat.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;  
+    background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./meat.jpg); 
 }
 
 .menu-page {
-    min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./fruit.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;  
 }
 
 .contact-page {
-    min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./bowl.jpg);
+}
+
+.home-page,
+.menu-page,
+.contact-page {
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;  
+    background-size: cover; 
 }
 
 .home-page .home-btn,
